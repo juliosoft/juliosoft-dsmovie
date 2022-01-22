@@ -40,7 +40,6 @@ function Listing() {
         <div className="row">
           {page?.content?.map((movie) => (
             <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
-              console.log(movie);
               <MovieCard movie={movie} />
             </div>
           ))}
